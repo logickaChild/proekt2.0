@@ -34,6 +34,20 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+nav a {
+    position:absolute;
+    left:-80px;
+    transition: 300ms;
+    padding:15px;
+    width:100px;
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+    border-radius:0 5px 5px 0;
+}
+nav a:hover{
+    left: 0;
+}
 
 .nav-link {
     font-size: 24px;
@@ -126,11 +140,12 @@ footer {
     border-radius:10px;
     width:130px;
     text-align:center;
-    transition: 300ms;
     text-decoration:none;
     height:370px;
-    
 
+}
+.arbuz:hover {
+    transition:300ms;
 }
 .cho{
     width:80px;
