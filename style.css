@@ -25,13 +25,17 @@ header {
 }
 .button:hover{
     background-color:orange;
+    transition:300ms;
+    font-size:30px;
 }
 
 nav {
 
-    padding: 25px 100px 25px 95px;
+    padding: 25px 50px 25px 55px;
     display: flex;
     justify-content: space-between;
+    border-top:5px solid white;
+    border-bottom:5px solid white;
 }
 
 .nav-link {
@@ -75,7 +79,7 @@ h1 {
 }
 .post:hover {
     font-size:18px;
-    
+    transition:400ms;
 
 }
 
@@ -118,11 +122,11 @@ footer {
 }
 .arbuz {
     position:fixed;
-    right:1620px;
+    left:1420px;
     top:200px;
     color:white;
     background-color:#42006f;
-    border-radius:10px;
+    border-radius:10px 0 0 10px;
     width:130px;
     text-align:center;
     text-decoration:none;
@@ -168,6 +172,7 @@ footer {
     background-color:white;
     color:black;
     border:5px solid blue;
+    transition:00ms;
 
 }
 
@@ -175,13 +180,17 @@ footer {
     color:orange;
 }
 .logo:hover {
-    background-color:#e5ff9f;
+    background-color:#f1f520;
+    transition:500ms;
+    border-radius:5px 5px 5px 5px;
 } 
 .mladec {
 
 }
 .mladec:hover {
+    font-size:45px;
     color:#48D1CC;
+    transition:400ms;
 }
 .molodec:hover {
     color:orange;
@@ -189,37 +198,28 @@ footer {
 }
 .social:hover {
     border-bottom:6px double orange;
+    
 }
 nav a {
-    position:fixed;
-    left:1700px;
-    transition: 300ms;
     padding:15px;
     width:100px;
     text-decoration:none;
     font-size:20px;
-    color:white;
-    border-radius:5px 5px 5px 5px;
-}
-nav a:hover{
-    left: 1600px;
-}
-.catt {
-    top: 120px;
-    background-color: orange;
+    color:#51b948;
+    background-color:white;
+    border-radius: 10px 10px 10px 10px;
+    padding-right:55px;
+
 
 }
-.opt {
-    top: 180px;
-    background-color:gray;
-
+nav a:hover {
+    transition:400ms;
+    opacity:1;
+    font-size:30px;
+    background-color:rgb(53, 124, 230);
+    
+    
 }
-.dost {
-    top: 240px;
-    background-color:lightskyblue;
+.popchik {
+    font-size:20px
 }
-.pov {
-    top: 300px;
-    background-color:#4CAF50;
-}
-
